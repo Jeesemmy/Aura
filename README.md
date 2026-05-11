@@ -4,6 +4,14 @@
 
 Aura 是一款专注于**个性照片添加**与**个性化内容展示**的 Android照片墙应用。照片太多？找不到某张图片？别急，你只需要添加到Aura中，下次使用直接打开应用即可查看。
 
+### 📸 界面预览
+
+<p align="center">
+  <img src="这里填第一张图的链接"[ width="30%](https://github.com/Jeesemmy/Aura/blob/master/IMG_20260511_133403.jpg?raw=true)" />
+  <img src="这里填第二张图的链接"[ width="30%](https://github.com/Jeesemmy/Aura/blob/master/IMG_20260511_133332.jpg?raw=true)" />
+  <img src="这里填第三张图的链接"[ width="30%](https://github.com/Jeesemmy/Aura/blob/master/IMG_20260511_133310.jpg?raw=true)" />
+</p>
+
 ---
 
 ### ✨ 核心亮点

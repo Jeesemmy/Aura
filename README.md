@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.png" width="120" />
+  <img src="./[logo.png](https://github.com/Jeesemmy/Aura/blob/master/IMG_20260511_135425.jpg?raw=true)" width="120" />
 </p>
 
 <h1 align="center">Aura 6.0</h1>

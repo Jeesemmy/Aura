@@ -1,3 +1,25 @@
+<p align="center">
+  <img src="./logo.png" width="120" />
+</p>
+
+<h1 align="center">Aura 6.0</h1>
+
+<p align="center">
+  <strong>灵感不隐匿，交互有光芒。</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Kotlin-purple.svg" />
+  <img src="https://img.shields.io/badge/Platform-Android-green.svg" />
+  <img src="https://img.shields.io/badge/Status-Stable-blue.svg" />
+</p>
+
+---
+
+
+
+
+
 # 🌌 Aura 
 
 > **灵感不隐匿，交互有光芒。**

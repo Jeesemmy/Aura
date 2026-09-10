@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <strong>灵。</strong>
+  <strong></strong>
 </p>
 
 <p align="center">

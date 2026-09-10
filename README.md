@@ -28,7 +28,7 @@ Aura 是一款专注于**个性照片添加**与**个性化内容展示**的 And
 ### 📸 界面预览
 
 <p align="center">
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260511_133403.jpg?raw=true"[ width="30%]" />
+  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260511_133310.jpg?raw=true"[ width="30%]" />
   <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260910_142643.jpg?raw=true"[ width="30%]" />
   <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260910_144459.jpg?raw=true"[ width="30%]" />
 </p>

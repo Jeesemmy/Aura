@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <strong>灵感不隐匿，交互有光芒。</strong>
+  <strong>灵。</strong>
 </p>
 
 <p align="center">

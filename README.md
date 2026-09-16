@@ -1,0 +1,68 @@
+<p align="center">
+  <img src="https://github.com/Jeesemmy/Aura/blob/master/512k.png?raw=true" width="120" />
+</p>
+
+
+<p align="center">
+  <strong></strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Kotlin-purple.svg" />
+  <img src="https://img.shields.io/badge/Platform-Android-green.svg" />
+  <img src="https://img.shields.io/badge/Status-Stable-blue.svg" />
+</p>
+
+---
+
+
+
+
+
+# 🌌 Aura 
+
+> **简介**
+
+Aura 是一款专注于**个性照片添加**与**个性化内容展示**的 Android照片墙应用。照片太多？找不到某张图片？别急，你只需要添加到Aura中，下次使用直接打开应用即可查看。
+
+### 📸 界面预览
+
+<p align="center">
+  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260511_133310.jpg?raw=true"[ width="30%]" />
+  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260910_142643.jpg?raw=true"[ width="30%]" />
+  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260910_144459.jpg?raw=true"[ width="30%]" />
+</p>
+
+---
+
+### ✨ 核心亮点
+
+#### 🧊 视觉：暖系风格美学
+深度设计了**Android原生系风格界面**
+
+#### 🛠️ 交互：系统实验室
+新增了底层驱动功能：
+* **状态栏强制适配**：让那些不听话的应用也乖乖服从你的显示偏好。
+* **应用架构优化**：针对你的设备进行底层逻辑微调，运行更丝滑。
+* **极简主义**：干净、纯粹，没有任何冗余的广告与视觉干扰。
+
+#### 💎 技术基因
+采用最新的 **Jetpack Compose** 引擎驱动，这意味着更流畅的动画响应和更稳定的性能表现。
+
+###  💡 Google Intelligence
+来自Gemini强势动力。
+
+---
+
+### 📥 如何获取
+请移至发布的 Release 版本。
+
+
+### 📱 系统适配
+适配Android14版本以上机型，
+低版本或32位系统以下可能出现图片无法保存或者闪退等问题
+
+
+
+### 🌟 共同成长
+如果你觉得 Aura 很好用，可以点亮右上角的 **Star** 🌟。

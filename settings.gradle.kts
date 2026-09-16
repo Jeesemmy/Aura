@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "WXXX"
 include(":app")
+

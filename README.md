@@ -50,13 +50,16 @@
 ### 💎 技术支持
 采用最新的 **Jetpack Compose** 引擎驱动，更流畅的动画响应和更稳定的性能表现.
 
-###  💡 Google Intelligence
+###  ✨ Google Intelligence
 来自Gemini强势动力。
 
 ---
 
 ### 📥 如何获取
 请移至发布的 Release 版本.
+
+### 💡 建议
+如有更好的想法可提交至📩hour0707@outlook.com.
 
 
 ### 😭 系统适配

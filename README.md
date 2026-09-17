@@ -8,9 +8,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-Kotlin-purple.svg" />
-  <img src="https://img.shields.io/badge/Platform-Android-green.svg" />
-  <img src="https://img.shields.io/badge/Status-Stable-blue.svg" />
+  <img src="https://img.shields.io/badge/Language-Kotlin-7f52ff?style=flat-square&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Platform-Android-3ddc84?style=flat-square&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" />
+  <img src="https://img.shields.io/badge/Design-Material%203-757575?style=flat-square&logo=materialdesign&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-v11.0%20Stable-00f2fe?style=flat-square&logo=github&logoColor=white" />
 </p>
 
 ---

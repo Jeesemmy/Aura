@@ -36,11 +36,18 @@
 
 ---
 
+###  ✨ Google Intelligence
+来自Gemini强势动力.
+
+
+###  🔮 Google Antigravity
+来自Agent强势动力.
+
+
 ### 💎 技术支持
 采用最新的 **Jetpack Compose** 引擎驱动，更流畅的动画响应和更稳定的性能表现.
 
-###  ✨ Google Intelligence
-来自Gemini强势动力。
+
 
 ---
 

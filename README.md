@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Platform-Android-3ddc84?style=flat-square&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" />
   <img src="https://img.shields.io/badge/Design-Material%203-757575?style=flat-square&logo=materialdesign&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-v11.0%20Stable-00f2fe?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-v16.0%20Stable-00f2fe?style=flat-square&logo=github&logoColor=white" />
 </p>
 
 ---
@@ -29,12 +29,10 @@
 ### 📱界面预览
 
 <p align="center">
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/图1?raw=true"[ width="30%]" />
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/图2?raw=true"[ width="30%]" />
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/图3?raw=true"[ width="30%]" />
-</p>
+  <img src="IMG_20261023_223540" width="31%" />
+  <img src="IMG_20261023_223512" width="31%" />
+  <img src="IMG_20261023_223458" width="31%" />
 
----
 
 ###  ✨ Google Intelligence
 来自Gemini强势动力.

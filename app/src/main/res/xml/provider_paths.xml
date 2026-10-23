@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 对应手机公共 Download 目录 (/storage/emulated/0/Download) -->
+    <external-path
+        name="external_download"
+        path="Download" />
+
+    <!-- 外部存储根路径 -->
+    <external-path
+        name="external_storage_root"
+        path="." />
+
+    <!-- 应用专属外部存储目录 (Android/data/包名/files) -->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <!-- 应用专属内部私有存储目录 (data/user/0/包名/files) -->
+    <files-path
+        name="internal_files"
+        path="." />
+
+    <!-- 应用缓存目录 -->
+    <cache-path
+        name="cache"
+        path="." />
+</paths>

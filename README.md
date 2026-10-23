@@ -29,9 +29,9 @@
 ### 📱界面预览
 
 <p align="center">
- <img width="1440" height="3200" alt="IMG_20261023_223540" src="https://github.com/user-attachments/assets/8eab95b4-23b9-40d0-9064-00faa3e75782" />
-<img width="1440" height="3200" alt="IMG_20261023_223512" src="https://github.com/user-attachments/assets/5bd52eca-3235-49ac-9737-4e1df0b4f31c" />
-<img width="1440" height="3200" alt="IMG_20261023_223458" src="https://github.com/user-attachments/assets/5a4b7151-c884-4b5c-8610-ecd0d5bdd28e" />
+  <img src="https://github.com/user-attachments/assets/8eab95b4-23b9-40d0-9064-00faa3e75782" width="31%" />
+  <img src="https://github.com/user-attachments/assets/5bd52eca-3235-49ac-9737-4e1df0b4f11c" width="31%" />
+  <img src="https://github.com/user-attachments/assets/5a4b7151-c884-4b5c-8610-ecd0d5bdd28e" width="31%" />
 </p>
 
 ###  ✨ Google Intelligence

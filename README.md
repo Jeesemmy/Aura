@@ -29,9 +29,9 @@
 ### 📱界面预览
 
 <p align="center">
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260917_150219.jpg?raw=true"[ width="30%]" />
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260917_150314.jpg?raw=true"[ width="30%]" />
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260917_150238.jpg?raw=true"[ width="30%]" />
+  <img src="https://github.com/Jeesemmy/Aura/blob/master/图1?raw=true"[ width="30%]" />
+  <img src="https://github.com/Jeesemmy/Aura/blob/master/图2?raw=true"[ width="30%]" />
+  <img src="https://github.com/Jeesemmy/Aura/blob/master/图3?raw=true"[ width="30%]" />
 </p>
 
 ---

@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://github.com/Jeesemmy/Aura/blob/master/512k.png?raw=true" width="120" />
 </p>
@@ -12,7 +13,7 @@
   <img src="https://img.shields.io/badge/Platform-Android-3ddc84?style=flat-square&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" />
   <img src="https://img.shields.io/badge/Design-Material%203-757575?style=flat-square&logo=materialdesign&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-v11.0%20Stable-00f2fe?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-v16.0%20Stable-00f2fe?style=flat-square&logo=github&logoColor=white" />
 </p>
 
 ---
@@ -29,12 +30,10 @@
 ### 📱界面预览
 
 <p align="center">
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260917_150219.jpg?raw=true"[ width="30%]" />
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260917_150314.jpg?raw=true"[ width="30%]" />
-  <img src="https://github.com/Jeesemmy/Aura/blob/master/IMG_20260917_150238.jpg?raw=true"[ width="30%]" />
+  <img src="https://github.com/user-attachments/assets/8eab95b4-23b9-40d0-9064-00faa3e75782" width="31%" />
+  <img src="https://github.com/user-attachments/assets/974f9236-4b4b-49b6-b5fd-5589a8480981" width="31%" />
+  <img src="https://github.com/user-attachments/assets/5a4b7151-c884-4b5c-8610-ecd0d5bdd28e" width="31%" />
 </p>
-
----
 
 ###  ✨ Google Intelligence
 来自Gemini强势动力.
@@ -45,7 +44,7 @@
 
 
 ### 💎 技术支持
-最新的 **Jetpack Compose** 引擎驱动，更流畅的动画响应和更稳定的性能表现.
+最新的 **Jetpack Compose** 引擎驱动.
 
 ---
 

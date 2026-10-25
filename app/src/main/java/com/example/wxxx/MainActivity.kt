@@ -590,7 +590,7 @@ fun MainScreen() {
                     .width(340.dp)
                     .heightIn(max = maxDialogHeight), // 🌟 自适应高度（Wrap Content）：字少紧凑包裹，字多最高占屏幕70%并支持滚动
                 onDismissRequest = { showAnnouncementDialog = false },
-                title = { Text(text = "公告💌") },
+                title = { Text(text = "公告🍛") },
                 text = {
                     // 用 Column 把多行文字垂直排列起来，支持上下滑动
                     Column(
@@ -600,19 +600,15 @@ fun MainScreen() {
                         verticalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
                         Text(text = "本次更新：")
-                        Text(text = "1.优化大图预览回弹动画.")
-                        Text(text = "2.替换了全新的扩展与功能图标.")
-                        Text(text = "3.修复了多项历史版本的UI细节与动效.")
-                        Text(text = "4.清理缓存功能升级,释放无用临时文件.")
-                        Text(text = "5.新增大图预览的下划跟手返回动画效果.")
-                        Text(text = "6.新增下载更新专属进度条弹窗,实时显示.")
-                        Text(text = "7.全新升级联网检测更新功能,便捷化更新.")
+                        Text(text = "1.优化大图预览动画效果.")
+                        Text(text = "2.优化大图预览视觉效果.")
+                        Text(text = "3.优化开发者卡片视觉效果.")
 
 
                         // 第 5 行：水平排列文字与双芯徽章（无背景透明版）
                         // 合作伙伴徽章排列
                         Row(verticalAlignment = Alignment.CenterVertically) {
-                            Text(text = "8.技术参考与支持")
+                            Text(text = "4.技术参考与支持")
                             Spacer(modifier = Modifier.width(6.dp))
 
                             // 1. 🌟 新增：Google 图标（无背景）
@@ -638,7 +634,7 @@ fun MainScreen() {
                                 contentAlignment = Alignment.Center
                             ) {
                                 androidx.compose.foundation.Image(
-                                    painter = androidx.compose.ui.res.painterResource(id = R.drawable.snapdragon_logo),
+                                    painter = androidx.compose.ui.res.painterResource(id = R.drawable.ic_gemini_color),
                                     contentDescription = "Snapdragon",
                                     modifier = Modifier.height(14.dp),
                                     contentScale = ContentScale.Fit
@@ -654,7 +650,7 @@ fun MainScreen() {
                                 contentAlignment = Alignment.Center
                             ) {
                                 androidx.compose.foundation.Image(
-                                    painter = androidx.compose.ui.res.painterResource(id = R.drawable.dimensity_logo),
+                                    painter = androidx.compose.ui.res.painterResource(id = R.drawable.ic_antigravity),
                                     contentDescription = "Dimensity",
                                     modifier = Modifier.height(14.dp),
                                     contentScale = ContentScale.Fit
@@ -786,6 +782,7 @@ fun MainScreen() {
                     Text(
                         text = "历史版本日志-\n\n" +
 
+                                "(26.10.26)-16.0版本🍛\n1.优化大图预览动画效果.\n2.优化大图预览视觉效果.\n3.优化开发者卡片视觉效果.\n\n" +
                                 "(26.10.22)-15.0版本💌\n1.优化大图预览回弹动画.\n2.替换了全新的扩展与功能图标.\n3.修复了多项历史版本的UI细节与动效.\n" +
                                 "4.清理缓存功能升级,释放无用临时文件.\n5.新增大图预览的下划跟手返回动画效果.\n6.新增下载更新专属进度条弹窗,实时显示.\n" +
                                 "7.全新升级联网检测更新功能,便捷化更新.\n\n" +
@@ -1522,7 +1519,7 @@ fun AuraSettingsScreen(
                     modifier = Modifier.fillMaxWidth(),
                     shape = RoundedCornerShape(16.dp),
                     colors = CardDefaults.cardColors(
-                        containerColor = MaterialTheme.colorScheme.surface
+                        containerColor = Color.Transparent
                     ),
                     border = androidx.compose.foundation.BorderStroke(
                         1.dp,
@@ -1538,8 +1535,17 @@ fun AuraSettingsScreen(
                 ) {
                     Row(
                         modifier = Modifier
-                            .padding(16.dp)
-                            .fillMaxWidth(),
+                            .fillMaxWidth()
+                            .background(
+                                brush = androidx.compose.ui.graphics.Brush.linearGradient(
+                                    colors = listOf(
+                                        Color(0xFFE6F5EC), // 极淡青绿色（呼应 Aura 徽章）
+                                        Color(0xFFF6F7FA), // 柔和净白过渡
+                                        Color(0xFFF0ECF8)  // 极淡浅灰微紫色（高级磨砂 VIP 铭牌质感）
+                                    )
+                                )
+                            )
+                            .padding(16.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         // 左侧：带蓝圈的真实头像
@@ -1575,16 +1581,11 @@ fun AuraSettingsScreen(
 
                             // 👇 核心改动：用 Row 把两个徽章横向排列在一起
                             Row(verticalAlignment = Alignment.CenterVertically) {
-                                // 1.Aura 渐变徽章
+                                // 1.Aura 徽章（底色与 VIP 铭牌起点融为一体）
                                 Box(
                                     modifier = Modifier
                                         .background(
-                                            brush = androidx.compose.ui.graphics.Brush.verticalGradient(
-                                                colors = listOf(
-                                                    Color.White,
-                                                    Color(0xFF75EA78)
-                                                )
-                                            ),
+                                            color = Color(0xFFE6F5EC),
                                             shape = RoundedCornerShape(10.dp)
                                         )
                                         .border(
@@ -1925,7 +1926,7 @@ fun AuraSettingsScreen(
                 }
 
                 Text(
-                    text = "当前版本：$currentVersionName \n不会使用Aura？没关系的.\n你可以点击底部的书籍按钮.\n就可以看到以往的更新日志啦.💕",
+                    text = "当前版本：$currentVersionName \n不会使用Aura？没关系的.\n你可以点击底部的日志按钮.\n就可以看到以往的更新日志啦.💕",
                     fontSize = 12.sp,
                     color = Color.Gray,
                     modifier = Modifier.padding(horizontal = 4.dp)

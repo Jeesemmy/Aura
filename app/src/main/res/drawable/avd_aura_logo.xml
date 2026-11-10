@@ -1,0 +1,36 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/ic_aura_logo_17">
+
+    <target android:name="root_group">
+        <aapt:attr name="android:animation">
+            <set>
+                <!-- 将缩放范围改得更小、更精致（比如从 0.2 弹到 0.55），这样就不会撑满被裁切 -->
+                <objectAnimator
+                    android:propertyName="scaleX"
+                    android:valueFrom="0.2"
+                    android:valueTo="0.55"
+                    android:duration="800"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/overshoot_interpolator" />
+                <objectAnimator
+                    android:propertyName="scaleY"
+                    android:valueFrom="0.2"
+                    android:valueTo="0.55"
+                    android:duration="800"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/overshoot_interpolator" />
+
+                <!-- 呼吸渐显动画 -->
+                <objectAnimator
+                    android:propertyName="alpha"
+                    android:valueFrom="0.0"
+                    android:valueTo="1.0"
+                    android:duration="500"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/decelerate_interpolator" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

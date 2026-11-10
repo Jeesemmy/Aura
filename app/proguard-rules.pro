@@ -1,21 +1,41 @@
-# Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.
-#
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
+# ==============================================================================
+# Aura 18.0 ProGuard / R8 混淆与代码缩减加固规则
+# ==============================================================================
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
+# =========================================================
+# 1. 修复 App Startup 与 WorkManager 反射初始化（根治冷启动崩溃）
+# =========================================================
+-keep class * extends androidx.startup.Initializer {
+    public <init>();
+}
+-keep class androidx.startup.** { *; }
 
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+-keep class androidx.work.** { *; }
+-keep class * extends androidx.work.Worker {
+    public <init>(android.content.Context, androidx.work.WorkerParameters);
+}
+-keep class * extends androidx.work.ListenableWorker {
+    public <init>(android.content.Context, androidx.work.WorkerParameters);
+}
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+# =========================================================
+# 2. 保护项目真实包名 (com.example.wxxx)
+# =========================================================
+-keep class com.example.wxxx.** { *; }
+-keep class com.example.wxxx.BuildConfig { *; }
+
+# =========================================================
+# 3. 数据持久化、图片加载与系统组件
+# =========================================================
+-keep class androidx.datastore.** { *; }
+-dontwarn androidx.datastore.**
+-keep class coil.** { *; }
+-dontwarn coil.**
+-keep class androidx.compose.runtime.** { *; }
+-keep class androidx.biometric.** { *; }
+
+# =========================================================
+# 4. 抑制三方依赖告警
+# =========================================================
+-dontwarn androidx.work.**
+-dontwarn androidx.startup.**

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 应用专属外部存储 Download 目录 (与 context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS) 严格对应) -->
+    <external-files-path
+        name="downloads"
+        path="Download/" />
+
+    <!-- 手机公共 Download 目录 (/storage/emulated/0/Download) -->
+    <external-path
+        name="external_download"
+        path="Download/" />
+
+    <!-- 应用专属内部私有 Download 目录 (与 File(context.filesDir, "Download") 对应) -->
+    <files-path
+        name="internal_download"
+        path="Download/" />
+</paths>

@@ -1,11 +1,3 @@
 package com.example.wxxx.ui.theme
 
-import androidx.compose.ui.graphics.Color
-
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
-
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// 🌟 Aura 19.0 全局调色板已统一收敛于 Theme.kt 与各业务设计规范，原生脚手架模板色已安全清退
